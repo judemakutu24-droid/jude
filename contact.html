@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-me</title>
+</head>
+<body>
+    <h1>My Contact details</h1>
+    <p>Nom: Ngwayaya</p>
+    <p>Prenom: Jude</p>
+    <p>Adresse:Chicago street, n°432,Wall street</p>
+    <p>E-mail: strong@gmail.com</p>
+    <p>Numero: O813795464</p>
+
+    <form action="envoie en cours.html" method="post">
+        <label for="name">Your name:</label>
+        <input type="text" value="" required size="50" placeholder="Ecrivez votre nom" > <br>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" minlength="20" required size="55" placeholder="Ecrivez votre E-mail">
+        <input type="reset" value="Réinitialiser"  /> <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" size="52" required > 
+        <input type="reset" value="Réinitialiser"/> <br>
+        <br>
+        <label for="CV">Attachez votre CV ci-dessous:</label> 
+        <input type="file" accept="image/jpeg"> <br>
+        <br>
+        <label for="date">Choisissez la date:</label>
+        <input type="date"> <br>
+        <br>
+        <label for="recherche">Recherchez votre matricule:</label>
+        <input type="search" size="35"> <br>
+        <br>
+        <fieldset>
+            <legend>Choisissez votre fruit preferé!</legend>
+            <input type="radio" >
+            <label for="orange">Orange</label> <br>
+            <br>
+            <input type="radio"> 
+            <label for="Banane">Banane</label> <br>
+            <br>
+            <input type="radio">
+            <label for="Mangue">Mangue</label>
+
+        </fieldset>
+        <br>
+        <label for="text area">Ecrivez votre commentaire:</label> <br>
+        <br>
+        <textarea cols="50" rows="10"> Donnez votre avis sur le sujet bro!</textarea> <br>
+        <br>
+        <label for="groupe" >Choisissez votre groupe</label> <br>
+        <br>
+        <select>
+            <optgroup>
+                <legend>sortes des navigateurs</legend>
+                <option >Operamini</option>
+                <option >Ms Edge</option>
+                <option >Chrome</option>
+                <option >Firefox</option>
+            </optgroup>
+            <optgroup>
+                <legend>université</legend>
+                <option >UNIKIN</option>
+                <option >UPN</option>
+                <option >UNILU</option>
+                <option >UPC</option>
+                <option >ISP</option>
+            </optgroup>
+        </select> <br>
+        <br>
+        <label for="envoie">Envoyer</label>
+        <input type="submit">
+    </form>
+</body>
+</html>
